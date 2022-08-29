@@ -9,6 +9,9 @@ public class Main {
         System.out.println("Su número de teléfono es: " + trabajador.getPhone());
         trabajador.setSalario(7300);
         System.out.println("Su salario es de " + trabajador.getSalario() + " dólares al mes");
+        Cliente cliente = new Cliente();
+        cliente.setCredito(42000);
+        System.out.println("El crédito de su amigo Marx es: " + cliente.getCredito());
     }
    
     static class Persona {
